@@ -12,3 +12,8 @@ var searchInsert = function (nums, target) {
   }
 };
 console.log(searchInsert(arr, 8));
+
+/**
+ * 1. 判断数组中是否存在目标值，如果存在则返回索引
+ * 2. 如果不存在，则将目标值push到数组中，然后排序，返回索引
+ */

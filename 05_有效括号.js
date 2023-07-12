@@ -8,3 +8,8 @@ var isValid = function (s) {
 
 
 console.log(isValid("{[()]}"));
+
+/**
+ * 1. 循环遍历字符串，如果字符串中包含()、{}、[]，则将其替换为空字符串
+ * 2. 如果字符串长度为0，则返回true，否则返回false
+ */

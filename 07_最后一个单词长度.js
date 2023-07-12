@@ -6,3 +6,9 @@ var lengthOfLastWord = function(s) {
 };
 
 console.log(lengthOfLastWord(" "));
+
+/**
+ * 1. 将字符串去除首尾空格
+ * 2. 如果字符串长度为0，则返回0
+ * 3. 将字符串以空格分割成数组，返回数组最后一个元素的长度
+ */
